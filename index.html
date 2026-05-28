@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardioSanskriti | Linking Ancient Wisdom & Modern Human Anatomy</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore the fascinating intersection of ancient Sanskrit anatomical texts and modern human anatomy and cardiovascular science. A social awareness project by Suhrut.">
+    <meta name="keywords" content="Sanskrit, Anatomy, Cardiology, Hridaya, Sushruta, Cardiovascular, Ancient Science, Medical Sanskrit">
+    <meta name="author" content="Suhrut">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="CardioSanskriti">
+    <meta property="og:description" content="Linking ancient Sanskrit anatomical texts with modern cardiovascular science.">
+    <meta property="og:image" content="assets/hero_graphic.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo-link" id="nav-logo">
+                <div class="logo-icon">CS</div>
+                <div class="logo-text">Cardio<span>Sanskriti</span></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="active" id="link-about">About</a></li>
+                    <li><a href="#explorer" id="link-explorer">Concept Explorer</a></li>
+                    <li><a href="#blog" id="link-blog">Articles</a></li>
+                    <li><a href="#podcast" id="link-podcast">Podcast</a></li>
+                    <li><a href="#forum" id="link-forum">Discussion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <span class="hero-tag" id="tag-badge">Ancient Wisdom • Modern Science</span>
+            <h1 id="hero-title">Bridging Ancient Sanskrit & Modern Human Anatomy</h1>
+            <p id="hero-desc">
+                Hi, I'm <strong>Suhrut</strong>—a 10th grader at Dougherty Valley High School (DVHS) in San Ramon. 
+                Having studied Sanskrit for over 8 years and aspiring to pursue a career in medicine, 
+                I am fascinated by how ancient shlokas explained modern human anatomy and science thousands of years ago. 
+                This is my journey to explore how we can uncover our roots and link ancient anatomical wisdom to modern human anatomy and cardiovascular science.
+            </p>
+            <div class="hero-cta">
+                <a href="#explorer" class="btn btn-primary" id="btn-explore">Explore Concepts</a>
+                <a href="#forum" class="btn btn-secondary" id="btn-join">Join Discussion</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-frame">
+                <img src="assets/hero_graphic.png" alt="CardioSanskriti Heart Anatomy Concept" id="img-hero">
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Concept Explorer Section -->
+    <section id="explorer">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Concept Explorer</h2>
+                <p>Click on the ancient Sanskrit concepts below to reveal their medical descriptions, original verses, and correlations to modern human anatomy and science.</p>
+            </div>
+            
+            <div class="explorer-grid">
+                <!-- Left Column: Term Selection -->
+                <div class="explorer-list" id="explorer-terms">
+                    <button class="concept-btn active" data-concept="hridaya" id="btn-concept-hridaya">
+                        <h3>Hṛdaya (हृदय)</h3>
+                        <span>The Ultimate Pump</span>
+                    </button>
+                    <button class="concept-btn" data-concept="dhamani" id="btn-concept-dhamani">
+                        <h3>Dhamanī (धमनी)</h3>
+                        <span>The Pulsating Arteries</span>
+                    </button>
+                    <button class="concept-btn" data-concept="sira" id="btn-concept-sira">
+                        <h3>Sirā (सिरा)</h3>
+                        <span>The Returning Channels</span>
+                    </button>
+                    <button class="concept-btn" data-concept="prana" id="btn-concept-prana">
+                        <h3>Prāṇa-Vāyu (प्राणवायु)</h3>
+                        <span>Oxygen & Life-Force</span>
+                    </button>
+                </div>
+                
+                <!-- Middle Column: Current concept details display -->
+                <div class="explorer-view" id="concept-display-panel">
+                    <span class="view-label">Sanskrit Term Analysis</span>
+                    <h3 class="view-title" id="display-title">Hṛdaya</h3>
+                    <div class="view-translit" id="display-translit">हृदय • hṛ-da-ya</div>
+                    <div class="view-divider"></div>
+                    
+                    <div class="view-sanskrit-block">
+                        <div class="sanskrit-verse" id="display-verse">हृ हरणे, दा दाने, यङ् यमने।</div>
+                        <div class="verse-translation" id="display-verse-translation">"Hri = to receive; Da = to give; Ya = to control or move."</div>
+                    </div>
+                    
+                    <p class="view-description" id="display-desc">
+                        In classical Upanishadic and Ayurvedic texts, the word Hridaya is not just a label but an explanation of physiological function. The word is composed of three syllables that perfectly describe the cyclic behavior of the heart.
+                    </p>
+                    
+                    <div class="science-connection" id="display-science-box">
+                        <h4>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M11.5 1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 .5-.5h9zM4 13.5h6v-11H4v11z"/>
+                                <path d="M9.5 1A1.5 1.5 0 0 0 8 2.5v11A1.5 1.5 0 0 0 9.5 15h2a1.5 1.5 0 0 0 1.5-1.5v-11A1.5 1.5 0 0 0 11.5 1h-2z"/>
+                            </svg>
+                            Cardiovascular Link
+                        </h4>
+                        <p id="display-science">
+                            This 3-syllable etymology maps exactly to the mechanical cardiac cycle: Venous Return ('Hri' - to receive blood), Cardiac Output ('Da' - to eject blood to the body), and Systemic Control/Regulation ('Ya' - the autonomic nervous system control over heart rate and pressure).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Heart beat visualizer simulator -->
+                <div class="explorer-visualizer">
+                    <div class="visualizer-container">
+                        <div class="visual-pulse-ring"></div>
+                        <div class="visual-pulse-ring"></div>
+                        <div class="heart-svg-wrapper">
+                            <!-- Heart SVG Icon -->
+                            <svg viewBox="0 0 24 24" id="heart-icon-beat">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flow-indicator">
+                        <div class="flow-label">Functional State</div>
+                        <div class="flow-value" id="display-visual-state">Active Pumping</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="blog">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Ancient Anatomical Writings</h2>
+                <p>Read Suhrut's syntheses linking textual accounts from Vedic literature and classical Ayurveda with contemporary anatomy and medical science.</p>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Card 1 -->
+                <article class="blog-card" id="blog-card-1">
+                    <div class="blog-card-img">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1e293b, #b91c1c); opacity: 0.8; display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 4rem; color: var(--accent-gold);">हृद्</div>
+                        <span class="blog-card-tag">Etymology</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <span>May 24, 2026</span>
+                            <span>•</span>
+                            <span>5 min read</span>
+                        </div>
+                        <h3>The Etymology of Hṛdaya: The Threefold Cardiovascular Cycle</h3>
+                        <p class="blog-card-excerpt">How did ancient Indian grammarians synthesize complex physiology into a three-letter word? An investigation into the heart's mechanical stages.</p>
+                        <a href="javascript:void(0)" class="blog-card-link" data-article="1" id="link-read-1">Read Article <span>&rarr;</span></a>
+                    </div>
+                </article>
+                
+                <!-- Card 2 -->
+                <article class="blog-card" id="blog-card-2">
+                    <div class="blog-card-img">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1e293b, #0f766e); opacity: 0.8; display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 4rem; color: var(--accent-cyan);">सिरा</div>
+                        <span class="blog-card-tag">Anatomy</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <span>May 20, 2026</span>
+                            <span>•</span>
+                            <span>7 min read</span>
+                        </div>
+                        <h3>Sushruta Samhita and the Channels of Circulation (Srotas)</h3>
+                        <p class="blog-card-excerpt">A deep-dive into Sushruta's Sharira Sthana, analyzing ancient classifications of vessels and how they map to modern arterial and venous systems.</p>
+                        <a href="javascript:void(0)" class="blog-card-link" data-article="2" id="link-read-2">Read Article <span>&rarr;</span></a>
+                    </div>
+                </article>
+                
+                <!-- Card 3 -->
+                <article class="blog-card" id="blog-card-3">
+                    <div class="blog-card-img">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1e293b, #c2410c); opacity: 0.8; display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 4rem; color: var(--accent-gold);">मर्म</div>
+                        <span class="blog-card-tag">Traumatology</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <span>May 15, 2026</span>
+                            <span>•</span>
+                            <span>6 min read</span>
+                        </div>
+                        <h3>The Marma Points: Ancient Cardiac Trauma Zones</h3>
+                        <p class="blog-card-excerpt">Investigating the anatomical risk zones surrounding the chest area, called Hridaya Marma, and their connections to modern thoracic emergency medicine.</p>
+                        <a href="javascript:void(0)" class="blog-card-link" data-article="3" id="link-read-3">Read Article <span>&rarr;</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>CardioSanskriti Audio & Podcast</h2>
+                <p>Listen to discussions where Suhrut and guests break down ancient Sanskrit medical texts and draw lines directly to modern human anatomy and science.</p>
+            </div>
+            
+            <div class="podcast-container">
+                <div class="podcast-visuals">
+                    <div class="podcast-artwork">
+                        <img src="assets/podcast_cover.png" alt="CardioSanskriti Podcast Cover Art" id="img-podcast-cover">
+                    </div>
+                    <div class="episode-meta-badges">
+                        <span class="badge-sanskrit">Ayurvedic Physiology</span>
+                        <span class="badge-sanskrit">Modern Science</span>
+                    </div>
+                </div>
+                
+                <!-- Custom Audio Player Layout -->
+                <div class="podcast-player" id="custom-audio-player">
+                    <div class="now-playing">NOW PLAYING</div>
+                    <h3 class="track-name" id="player-title">Episode 1: The Etymological Heart (Hridaya)</h3>
+                    <div class="track-artist" id="player-author">CardioSanskriti Podcast • Hosted by Suhrut</div>
+                    
+                    <div class="progress-container">
+                        <span class="time-display" id="time-current">0:00</span>
+                        <div class="progress-bar-bg" id="progress-bar">
+                            <div class="progress-bar-fill" id="progress-fill"></div>
+                            <div class="progress-knob" id="progress-knob"></div>
+                        </div>
+                        <span class="time-display" id="time-duration">12:34</span>
+                    </div>
+                    
+                    <div class="player-controls">
+                        <!-- Prev Button -->
+                        <button class="control-btn" id="btn-player-prev" title="Previous Episode">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.54-.313 1.232.066 1.232.696v7.384c0 .63-.692 1.01-1.232.697L5 8.753V12a.5.5 0 0 1-1 0V4z"/>
+                            </svg>
+                        </button>
+                        
+                        <!-- Play/Pause Button -->
+                        <button class="control-btn btn-play-pause" id="btn-player-play" title="Play/Pause">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" id="play-icon-svg">
+                                <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                            </svg>
+                        </button>
+                        
+                        <!-- Next Button -->
+                        <button class="control-btn" id="btn-player-next" title="Next Episode">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.693 3.3 4 3.678 4 4.308v7.384c0 .63.692 1.01 1.233.697L11.5 8.753V12a.5.5 0 0 0 1 0V4z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Episode Selector list -->
+                    <div class="episode-list">
+                        <div class="episode-list-header">Select Episode</div>
+                        
+                        <div class="episode-row active" data-ep="1" id="ep-row-1">
+                            <div class="episode-info">
+                                <span class="episode-title">Ep 1: The Etymological Heart (Hridaya)</span>
+                                <span class="episode-duration">Duration: 12:34</span>
+                            </div>
+                            <div class="play-indicator-small">&#9658;</div>
+                        </div>
+                        
+                        <div class="episode-row" data-ep="2" id="ep-row-2">
+                            <div class="episode-info">
+                                <span class="episode-title">Ep 2: Blood Circulation Pathways in Sushruta Samhita</span>
+                                <span class="episode-duration">Duration: 15:42</span>
+                            </div>
+                            <div class="play-indicator-small">&#9658;</div>
+                        </div>
+                        
+                        <div class="episode-row" data-ep="3" id="ep-row-3">
+                            <div class="episode-info">
+                                <span class="episode-title">Ep 3: Emergency Medicine & The Thoracic Marmas</span>
+                                <span class="episode-duration">Duration: 10:15</span>
+                            </div>
+                            <div class="play-indicator-small">&#9658;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discussion / Feedback Forum -->
+    <section id="forum">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Collaborative Discussion Board</h2>
+                <p>Support Suhrut's initiative by adding your thoughts. Express appreciation, share critiques, contribute additional Sanskrit quotes, or write questions.</p>
+            </div>
+            
+            <div class="forum-grid">
+                <!-- Left: Form -->
+                <div class="forum-form-container">
+                    <h3>Submit Your Thoughts</h3>
+                    <p>Select a category and help build our knowledge community.</p>
+                    
+                    <form id="discussion-form">
+                        <!-- Category choice -->
+                        <div class="form-group">
+                            <label>Feedback Category</label>
+                            <div class="category-selector">
+                                <button type="button" class="cat-btn active" data-type="appreciate" id="cat-btn-appreciate">
+                                    <span>👏</span> Appreciate
+                                </button>
+                                <button type="button" class="cat-btn" data-type="comment" id="cat-btn-comment">
+                                    <span>💬</span> Comment
+                                </button>
+                                <button type="button" class="cat-btn" data-type="critique" id="cat-btn-critique">
+                                    <span>⚠️</span> Critique
+                                </button>
+                                <button type="button" class="cat-btn" data-type="share" id="cat-btn-share">
+                                    <span>📚</span> Share Info
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- User Name -->
+                        <div class="form-group">
+                            <label for="input-author">Your Name</label>
+                            <input type="text" id="input-author" class="form-input" placeholder="e.g., Prof. Sharma or Dr. Sarah" required>
+                        </div>
+                        
+                        <!-- Content Textarea -->
+                        <div class="form-group">
+                            <label for="input-message">Message / Contributions</label>
+                            <textarea id="input-message" class="form-textarea" placeholder="Share your insight or review of the concept mapping here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" id="btn-submit-feedback">Publish Contribution</button>
+                    </form>
+                </div>
+                
+                <!-- Right: Timeline/Feed -->
+                <div class="forum-feed-container">
+                    <!-- Statistics summary -->
+                    <div class="feedback-stats">
+                        <div class="stat-card">
+                            <div class="stat-num appreciate" id="stat-appreciate">0</div>
+                            <div class="stat-label">Appreciate</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-num comment" id="stat-comment">0</div>
+                            <div class="stat-label">Comments</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-num critique" id="stat-critique">0</div>
+                            <div class="stat-label">Critiques</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-num share" id="stat-share">0</div>
+                            <div class="stat-label">Shared Info</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Filters bar -->
+                    <div class="forum-filters">
+                        <button class="filter-btn active" data-filter="all" id="btn-filter-all">All Contributions</button>
+                        <button class="filter-btn" data-filter="appreciate" id="btn-filter-appreciate">👏 Appreciations</button>
+                        <button class="filter-btn" data-filter="comment" id="btn-filter-comment">💬 Comments</button>
+                        <button class="filter-btn" data-filter="critique" id="btn-filter-critique">⚠️ Critiques</button>
+                        <button class="filter-btn" data-filter="share" id="btn-filter-share">📚 Shared Info</button>
+                    </div>
+                    
+                    <!-- Feed Timeline List -->
+                    <div class="feed-list" id="feed-items-list">
+                        <!-- Dynamic items loaded by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo-link">
+                    <div class="logo-icon">CS</div>
+                    <div class="logo-text">Cardio<span>Sanskriti</span></div>
+                </a>
+                <p>Bringing ancient Vedic and Ayurvedic anatomical understanding into the context of contemporary human anatomy and physiology research.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#explorer">Concept Explorer</a></li>
+                        <li><a href="#blog">Articles</a></li>
+                        <li><a href="#podcast">Podcast</a></li>
+                        <li><a href="#forum">Discussion Board</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Sushruta_Samhita" target="_blank" rel="noopener">Sushruta Samhita</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Charaka_Samhita" target="_blank" rel="noopener">Charaka Samhita</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CardioSanskriti. Created by Suhrut. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Article Content Modals -->
+    <div class="modal" id="article-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="btn-modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <h1 id="modal-article-title">Article Title</h1>
+                <div class="modal-meta">
+                    <span id="modal-article-date">Date</span>
+                    <span>•</span>
+                    <span id="modal-article-tag">Category</span>
+                </div>
+                <div class="modal-inner-content" id="modal-article-text">
+                    <!-- Dynamic text loaded by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript script file -->
+    <script src="app.js"></script>
+</body>
+</html>
